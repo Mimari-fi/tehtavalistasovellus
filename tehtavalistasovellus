@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Tehtävälista</title>
+    <link rel="stylesheet" href="tehtavalistasovellus.css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Tehtävälista</h1>
+
+        <div id="tasks"></div>
+
+        <input id="input" type="text" placeholder="Kirjoita tehtävän numero (1-5)" />
+        <button id="btn">Merkitse tehdyksi</button>
+        <button id="reset">Aloita alusta</button>
+
+        <p id="message"></p>
+    </div>
+
+    <script src="tehtavalistasovellus.js"></script>
+</body>
+
+</html>
