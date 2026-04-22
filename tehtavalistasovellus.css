@@ -1,0 +1,42 @@
+body {
+    font-family: Arial;
+    background: #1f2a2e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.container {
+    background: #2f3f44;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.task {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+.done {
+    text-decoration: line-through;
+    color: lightgreen;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
